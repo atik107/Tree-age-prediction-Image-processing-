@@ -1,5 +1,7 @@
 # Tree Age Determination Using Ring Count
 
+![Project Overview](images/overview.png)
+
 A project focused on estimating tree age using image processing techniques by analyzing tree ring patterns. This project is part of the CSE 4120: Image Processing & Computer Vision Laboratory course at Khulna University of Engineering & Technology.
 
 ---
@@ -18,6 +20,8 @@ A project focused on estimating tree age using image processing techniques by an
 
 ## Introduction
 Tree ring analysis, or dendrochronology, is a scientific method of dating based on the patterns of tree rings. This project utilizes image processing techniques to determine tree age from cross-section images of tree trunks.
+
+![Tree Rings Example](images/tree_rings_example.png)
 
 ---
 
@@ -39,36 +43,53 @@ Tree ring analysis, or dendrochronology, is a scientific method of dating based 
 7. Morphological operations (Opening, Skeletonization, Closing)
 8. Tree ring count estimation
 
+![Processing Steps](images/processing_steps.png)
+
 ---
 
 ## Methodology
+
 ### Image Segmentation
+![Segmentation Example](images/segmentation.png)
+
 - Convert RGB image to grayscale
 - Apply Otsu's thresholding
 - Fill holes in the binary image
 - Label and isolate the largest region representing the tree cross-section
 
 ### Local Histogram Equalization
+![Histogram Equalization](images/histogram_equalization.png)
+
 - Enhance contrast in poorly visible regions using CLAHE.
 
 ### Gamma Correction
+![Gamma Correction](images/gamma_correction.png)
+
 - Adjust brightness and contrast using a gamma value of 1.5.
 
 ### Adaptive Thresholding
+![Thresholding Example](images/thresholding.png)
+
 - Automatically binarize the image based on local pixel intensity variations.
 
 ### Morphological Operations
+![Morphological Operations](images/morphological_operations.png)
+
 - Apply opening, closing, and thinning to refine tree ring structures.
 
 ---
 
 ## Results
+![Results Overview](images/results.png)
+
 - GUI for loading images and performing all processing steps.
 - Estimation of tree age by averaging transitions in the skeletonized image.
 
 ---
 
 ## Limitations
+![Limitations](images/limitations.png)
+
 - Misidentification of rings due to poor contrast or overlapping growth rings.
 - Challenges with non-circular or irregular cross-sections.
 - Difficulty in detecting rings with very narrow widths.
