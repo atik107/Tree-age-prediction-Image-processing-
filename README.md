@@ -4,7 +4,7 @@ A project focused on estimating tree age using image processing techniques by an
 
 
 <p align="center">
-    <img src="Tree_images/ss_1.png" alt="Screenshot 1" height = "600" width="800">
+    <img src="Tree_images/ss_1.png" alt="Screenshot 1" height = "500" width="1000">
 
 </p>
 
