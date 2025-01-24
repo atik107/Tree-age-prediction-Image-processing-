@@ -2,6 +2,25 @@
 
 A project focused on estimating tree age using image processing techniques by analyzing tree ring patterns. This project is part of the CSE 4120: Image Processing & Computer Vision Laboratory course at Khulna University of Engineering & Technology.
 
+
+
+
+# Pictures
+<p align="center">
+    <img src="App_ss/ss7.jpeg" alt="Screenshot 1" height = "400" width="200">
+    <img src="App_ss/ss4.jpeg" alt="Screenshot 2" height = "400" width="200">
+    <img src="App_ss/ss20.jpeg" alt="Screenshot 3" height = "400" width="200">
+</p>
+
+<!-- Second Row -->
+<p align="center">
+    <img src="App_ss/ss16.jpeg" alt="Screenshot 4" height = "400" width="200">
+    <img src="App_ss/ss14.jpeg" alt="Screenshot 5" height = "400" width="200">
+    <img src="App_ss/ss15.jpeg" alt="Screenshot 6" height = "400" width="200">
+</p>
+
+
+
 ---
 
 ## Table of Contents
